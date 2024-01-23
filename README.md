@@ -1,9 +1,5 @@
 ## <b>ImageColorizerAI</b> [[Project Page]](https://github.com/ronishdua/ImageColorizerAI.git) <br>
 
-**+ automatic colorization functionality for Real-Time User-Guided Image Colorization with Learned Deep Priors, SIGGRAPH 2017!**
-
-**[Sept20 Update]** Since it has been 3-4 years, I converted this repo to support minimal test-time usage in PyTorch. I also added our SIGGRAPH 2017 (it's an interactive method but can also do automatic). See the [Caffe branch](https://github.com/richzhang/colorization/tree/caffe) for the original release.
-
 ![Teaser Image](http://richzhang.github.io/colorization/resources/images/teaser4.jpg)
 
 **Clone the repository; install dependencies**
@@ -25,4 +21,10 @@ python demo_release.py -i imgs/ansel_adams3.jpg
 import colorizers
 colorizer_eccv16 = colorizers.eccv16().eval()
 colorizer_siggraph17 = colorizers.siggraph17().eval()
-``
+```
+**Want To Add Your Own Image?**
+1. Find any B&W image on Google.
+2. Conver image to JPG.
+3. Upload image into imgs folder.
+4. Change end of line 7 to your image name.
+5. Run demo_release.py
