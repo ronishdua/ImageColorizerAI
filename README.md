@@ -1,4 +1,4 @@
-## <b>ImageColorizerAI</b> [[Project Page]](http://ronishdua.github.io/ImageColorizerAI/) <br>
+## <b>ImageColorizerAI</b> [[Project Page]](https://github.com/ronishdua/ImageColorizerAI.git) <br>
 
 **+ automatic colorization functionality for Real-Time User-Guided Image Colorization with Learned Deep Priors, SIGGRAPH 2017!**
 
